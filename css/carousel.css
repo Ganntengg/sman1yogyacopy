@@ -1,0 +1,22 @@
+.carousel-img-wrapper {
+  white-space: nowrap;
+  height: 20rem;
+  width: calc(100% * 6);
+}
+.carousel-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.comma::after {
+  content: ",,";
+  font-family: "Times New Roman";
+  font-size: 180px;
+  left: 7px;
+  letter-spacing: -15px;
+  opacity: 0.1;
+  position: absolute;
+  top: 70px;
+  transform: rotate(180deg);
+}

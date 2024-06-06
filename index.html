@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo_putih.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SMAN 1 Yogyakarta</title>
+  </head>
+  <body
+    class="bg-[url('img/bg_home.JPG')] bg-no-repeat bg-center bg-fixed xl:bg-cover"
+  >
+    <!-- Mail A -->
+    <a href="#Contact" class="fixed z-50 right-5 bottom-5 w-20">
+      <img src="img/mail-icon.png" alt="" />
+    </a>
+    <!-- End Mail A -->
+    <!-- Start Header -->
+    <header class="fixed z-[60] top-0 w-full">
+      <!-- Start Navbar -->
+      <nav
+        id="navHead"
+        class="xl:bg-transparent xl:h-[5rem] bg-white flex justify-center flex-col xl:flex-row items-stretch gap-10 text-sm shadow-md"
+      >
+        <!-- Hamburger menu -->
+        <button
+          id="hamburgerBtn"
+          class="absolute left-10 text-xl top-1/2 transform -translate-y-1/2 xl:hidden"
+        >
+          <i id="hamburgerToggle" class="fa-solid fa-bars"></i>
+        </button>
+        <!-- End Hamburger menu -->
+        <a
+          href="#home"
+          id="logoText"
+          class="text-2xl font-bold flex items-center justify-center text-blue-600 xl:text-white"
+          >TELADAN</a
+        >
+        <!-- Nav PC -->
+        <ul
+          id="navUl"
+          class="xl:flex xl:justify-center hidden items-center xl:gap-10 text-white font-bold"
+        >
+          <li class="cursor-pointer relative dropdown h-full flex items-center">
+            <span>PROFIL SEKOLAH</span>
+            <ul
+              class="dropdown-menu absolute hidden bottom-0 left-0 translate-y-[28.5rem] w-[15rem] font-normal bg-white text-black md:py-3 rounded-sm transition-all duration-300"
+            >
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="/page/sambutan.html"> Sambutan Kepala Sekolah </a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href=""> Sejarah </a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href=""> Visi & Misi </a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href=""> Kondisi Sekolah </a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href=""> Sarana & Prasarana </a>
+              </li>
+              <li
+                class="lines-item relative hover:text-yellow-400 transition duration-300 sub-dropdown h-[3rem] px-3 flex flex-row"
+              >
+                <span
+                  class="flex justify-center items-center sub-dropdown-icon"
+                >
+                  Kelas Layanan
+                </span>
+                <ul
+                  class="sub-dropdown-menu absolute hidden -right-[7.23rem] font-normal md:bg-white md:text-black md:p-3 rounded-sm transition-all duration-300 gap-y-[1rem]"
+                >
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    Cambridge
+                  </li>
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    OSN
+                  </li>
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    Riset
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href=""> Adiwiyata </a>
+              </li>
+              <li
+                class="lines-item relative hover:text-yellow-400 transition duration-300 sub-dropdown h-[3rem] px-3 flex flex-row"
+              >
+                <span
+                  class="flex justify-center items-center sub-dropdown-icon"
+                >
+                  Struktur Organisasi
+                </span>
+                <ul
+                  class="sub-dropdown-menu absolute hidden -right-[8.9rem] font-normal md:bg-white md:text-black md:p-3 rounded-sm transition-all duration-300 gap-y-[1rem]"
+                >
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    <a href="#">Sekolah</a>
+                  </li>
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    <a href="#">Komite Sekolah</a>
+                  </li>
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    <a href="#">Osis</a>
+                  </li>
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    <a href="#">MPK</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="lines-item relative hover:text-yellow-400 transition duration-300 sub-dropdown h-[3rem] px-3 flex flex-row"
+              >
+                <span
+                  class="flex justify-center items-center sub-dropdown-icon"
+                >
+                  Staff
+                </span>
+                <ul
+                  class="sub-dropdown-menu absolute hidden -right-[11rem] font-normal md:bg-white md:text-black md:p-3 rounded-sm transition-all duration-300 gap-y-[1rem]"
+                >
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    <a href="#tenagaPendidik">Tenaga Pendidik</a>
+                  </li>
+                  <li
+                    class="lines-item relative hover:text-yellow-400 transition duration-300 px-3"
+                  >
+                    <a href="#tenagaKependidikan">Tenaga Kependidikan</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="cursor-pointer relative dropdown flex items-center justify-center h-full"
+          >
+            <span>BERITA</span>
+            <ul
+              class="dropdown-menu absolute bottom-0 translate-y-[13.5rem] w-[15rem] left-0 hidden font-normal bg-white text-black md:py-3 rounded-sm transition-all duration-300"
+            >
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">Berita Terbaru</a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">Info Sekolah</a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">Agenda</a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">Gallery</a>
+              </li>
+            </ul>
+          </li>
+          <li
+            class="cursor-pointer dropdown relative flex items-center justify-center h-full"
+          >
+            <span>KEUANGAN</span>
+            <ul
+              class="dropdown-menu absolute hidden bottom-0 left-0 translate-y-[10.5rem] w-[15rem] font-normal bg-white text-black md:py-3 rounded-sm transition-all duration-300"
+            >
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">BOS</a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">APBD</a>
+              </li>
+              <li
+                class="lines-item relative flex items-center hover:text-yellow-400 transition duration-300 h-[3rem] px-3"
+              >
+                <a href="">Komite</a>
+              </li>
+            </ul>
+          </li>
+          <li class="cursor-pointer flex items-center justify-center">
+            <a href="#ekstrakurikuler">EKSTRAKURIKULER</a>
+          </li>
+          <li class="cursor-pointer flex items-center justify-center">
+            <a href="#prestasi">PRESTASI</a>
+          </li>
+          <li class="cursor-pointer flex items-center justify-center">
+            <a href="#profilAlumni">PROFIL ALUMNI</a>
+          </li>
+          <li class="cursor-pointer flex items-center justify-center">
+            <a href="#Contact">KONTAK</a>
+          </li>
+          <li class="cursor-pointer flex items-center">ID</li>
+        </ul>
+      </nav>
+      <!-- End Navbar -->
+    </header>
+    <!-- End Header -->
+    <!-- Home Section -->
+    <section id="home" class="flex justify-center items-center w-full h-screen">
+      <div class="flex justify-center items-center flex-col">
+        <h1
+          class="xl:text-5xl md:text-3xl text-center text-2xl text-white font-bold"
+        >
+          SMA NEGERI 1 YOGYAKARTA
+        </h1>
+        <div class="relative mt-[2rem] xl:mt-[5rem]">
+          <input
+            type="text"
+            class="xl:w-[53rem] sm:w-[30rem] md:w-[35rem] xl:h-[4rem] h-[3rem] rounded-full pl-5 py-2 pr-[6rem] outline-none search-input"
+            placeholder="Apa yang ingin anda cari?"
+          />
+          <button
+            class="bg-yellow-500 rounded-full w-20 xl:h-[3rem] h-[2rem] absolute right-3 top-2 bottom-2"
+          >
+            Cari
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Section -->
+    <!-- Section Berita Terbaru -->
+    <section id="berita" class="bg-white py-[4rem]">
+      <h1
+        class="header-lines relative text-slate-800 text-center text-3xl font-bold"
+      >
+        Berita Terbaru
+      </h1>
+      <div
+        class="grid sm:grid-cols-2 grid-cols-1 justify-items-center xl:grid-cols-3 mt-10 px-3 xl:px-[10rem] gap-10"
+      >
+        <div class="card relative group">
+          <div class="relative overflow-hidden">
+            <img
+              src="img/photorandom360.jfif"
+              alt=""
+              class="group-hover:scale-125 bg-red-500 transition duration-300 w-[30rem]"
+            />
+            <div
+              class="flex flex-col absolute bottom-3 left-3 p-3 rounded-xl faded-bg"
+            >
+              <p class="text-4xl font-bold text-yellow-400">16</p>
+              <p class="text-yellow-400">May, 2024</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[1rem] mt-5">
+            <a
+              href="#"
+              class="text-xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              KILARA : PAMERAN PROJEK P5 LATIH GAYA HIDUP BERKELANJUTAN...
+            </a>
+            <p class="text-gray-700 text-sm text-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus maiores officia ipsa laudantium eos dolorem...
+            </p>
+            <a
+              href="#"
+              class="items-center hover:text-yellow-400 transition duration-300 text-gray-600"
+            >
+              Read More <i class="fa-solid fa-angles-right text-md"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card relative group">
+          <div class="relative overflow-hidden">
+            <img
+              src="img/photorandom360.jfif"
+              alt=""
+              class="group-hover:scale-125 bg-red-500 transition duration-300 w-[30rem]"
+            />
+            <div
+              class="flex flex-col absolute bottom-3 left-3 p-3 rounded-xl faded-bg"
+            >
+              <p class="text-4xl font-bold text-yellow-400">16</p>
+              <p class="text-yellow-400">May, 2024</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[1rem] mt-5">
+            <a
+              href="#"
+              class="text-xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              KILARA : PAMERAN PROJEK P5 LATIH GAYA HIDUP BERKELANJUTAN...
+            </a>
+            <p class="text-gray-700 text-sm text-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus maiores officia ipsa laudantium eos dolorem...
+            </p>
+            <a
+              href="#"
+              class="items-center hover:text-yellow-400 transition duration-300 text-gray-600"
+            >
+              Read More <i class="fa-solid fa-angles-right text-md"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card relative group">
+          <div class="relative overflow-hidden">
+            <img
+              src="img/photorandom360.jfif"
+              alt=""
+              class="group-hover:scale-125 bg-red-500 transition duration-300 w-[30rem]"
+            />
+            <div
+              class="flex flex-col absolute bottom-3 left-3 p-3 rounded-xl faded-bg"
+            >
+              <p class="text-4xl font-bold text-yellow-400">16</p>
+              <p class="text-yellow-400">May, 2024</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[1rem] mt-5">
+            <a
+              href="#"
+              class="text-xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              KILARA : PAMERAN PROJEK P5 LATIH GAYA HIDUP BERKELANJUTAN...
+            </a>
+            <p class="text-gray-700 text-sm text-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus maiores officia ipsa laudantium eos dolorem...
+            </p>
+            <a
+              href="#"
+              class="items-center hover:text-yellow-400 transition duration-300 text-gray-600"
+            >
+              Read More <i class="fa-solid fa-angles-right text-md"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card relative group">
+          <div class="relative overflow-hidden">
+            <img
+              src="img/photorandom360.jfif"
+              alt=""
+              class="group-hover:scale-125 bg-red-500 transition duration-300 w-[30rem]"
+            />
+            <div
+              class="flex flex-col absolute bottom-3 left-3 p-3 rounded-xl faded-bg"
+            >
+              <p class="text-4xl font-bold text-yellow-400">16</p>
+              <p class="text-yellow-400">May, 2024</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[1rem] mt-5">
+            <a
+              href="#"
+              class="text-xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              KILARA : PAMERAN PROJEK P5 LATIH GAYA HIDUP BERKELANJUTAN...
+            </a>
+            <p class="text-gray-700 text-sm text-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus maiores officia ipsa laudantium eos dolorem...
+            </p>
+            <a
+              href="#"
+              class="items-center hover:text-yellow-400 transition duration-300 text-gray-600"
+            >
+              Read More <i class="fa-solid fa-angles-right text-md"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card relative group">
+          <div class="relative overflow-hidden">
+            <img
+              src="img/photorandom360.jfif"
+              alt=""
+              class="group-hover:scale-125 bg-red-500 transition duration-300 w-[30rem]"
+            />
+            <div
+              class="flex flex-col absolute bottom-3 left-3 p-3 rounded-xl faded-bg"
+            >
+              <p class="text-4xl font-bold text-yellow-400">16</p>
+              <p class="text-yellow-400">May, 2024</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[1rem] mt-5">
+            <a
+              href="#"
+              class="text-xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              KILARA : PAMERAN PROJEK P5 LATIH GAYA HIDUP BERKELANJUTAN...
+            </a>
+            <p class="text-gray-700 text-sm text-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus maiores officia ipsa laudantium eos dolorem...
+            </p>
+            <a
+              href="#"
+              class="items-center hover:text-yellow-400 transition duration-300 text-gray-600"
+            >
+              Read More <i class="fa-solid fa-angles-right text-md"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card relative group">
+          <div class="relative overflow-hidden">
+            <img
+              src="img/photorandom360.jfif"
+              alt=""
+              class="group-hover:scale-125 bg-red-500 transition duration-300 w-[30rem]"
+            />
+            <div
+              class="flex flex-col absolute bottom-3 left-3 p-3 rounded-xl faded-bg"
+            >
+              <p class="text-4xl font-bold text-yellow-400">16</p>
+              <p class="text-yellow-400">May, 2024</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-[1rem] mt-5">
+            <a
+              href="#"
+              class="text-xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              KILARA : PAMERAN PROJEK P5 LATIH GAYA HIDUP BERKELANJUTAN...
+            </a>
+            <p class="text-gray-700 text-sm text-left">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus maiores officia ipsa laudantium eos dolorem...
+            </p>
+            <a
+              href="#"
+              class="items-center hover:text-yellow-400 transition duration-300 text-gray-600"
+            >
+              Read More <i class="fa-solid fa-angles-right text-md"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-14 w-full flex justify-center items-center">
+        <a
+          href="#"
+          class="text-sm font-bold border-2 border-slate-800 tracking-widest hover:bg-slate-800 hover:text-white text-black transition duration-300 py-3 px-10"
+          >TAMPILKAN SEMUA BERITA</a
+        >
+      </div>
+    </section>
+    <!-- End Section Berita terbaru -->
+    <!-- Section Ekstrakurikuler -->
+    <section
+      id="ekstrakurikuler"
+      class="bg-slate-50 py-[4rem] px-1 xl:px-[6rem]"
+    >
+      <h1
+        class="header-lines relative text-slate-800 text-center text-3xl font-bold"
+      >
+        Ekstrakurikuler
+      </h1>
+      <div
+        class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 px-1 gap-10 mt-10"
+      >
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-blue-500 pl-7 w-[100%] h-20 rounded-lg shadow-lg"
+        >
+          <i class="fa-solid fa-user-tie md:text-5xl text-2xl text-white"></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Pleton Inti<br />
+            (TONTI)
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-cyan-500 pl-7 w-full h-20 rounded-lg shadow-lg"
+        >
+          <i class="fa-solid fa-medal text-2xl xl:text-5xl text-white"></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Palang Merah<br />
+            Remaja (TJRC)
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-green-500 pl-7 w-full h-20 rounded-lg shadow-lg"
+        >
+          <i class="fa-solid fa-book text-2xl xl:text-5xl text-white"></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Olimpiade<br />
+            Sains
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-teal-400 pl-7 w-full h-20 rounded-lg shadow-lg"
+        >
+          <i class="fa-solid fa-book-open text-2xl xl:text-5xl text-white"></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Karya Ilmiah<br />
+            Remaja (TSC)
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-yellow-400 pl-7 w-full h-20 rounded-lg shadow-lg"
+        >
+          <i
+            class="fa-solid fa-chalkboard-user text-2xl xl:text-5xl text-white"
+          ></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Ensambel<br />
+            (TSO)
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-pink-600 pl-7 text-wrap w-full h-20 rounded-lg shadow-lg"
+        >
+          <i
+            class="fa-solid fa-clapperboard text-2xl xl:text-5xl text-white"
+          ></i>
+          <div class="text-white text-sm xl:text-normal text-wrap font-bold">
+            Sinematografi
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-red-500 pl-7 w-full h-20 rounded-lg shadow-lg"
+        >
+          <i class="fa-solid fa-earth-asia text-2xl xl:text-5xl text-white"></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Pecinta Alam<br />(THA)
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-row items-center gap-5 bg-purple-600 pl-7 w-full h-20 rounded-lg shadow-lg"
+        >
+          <i class="fa-solid fa-robot text-2xl xl:text-5xl text-white"></i>
+          <div class="text-white text-sm xl:text-normal font-bold">
+            Teladan<br />Robotic Team
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- End Section Ekstrakurikuler -->
+    <!-- Section Prestasi Terbaru -->
+    <section id="prestasi" class="bg-white py-[4rem]">
+      <h1
+        class="header-lines relative text-slate-800 text-center text-3xl font-bold"
+      >
+        Prestasi Terbaru
+      </h1>
+      <div class="flex flex-col justify-center items-center mt-10">
+        <div class="flex flex-col lg:flex-row gap-10 px-5">
+          <img src="img/photorandom.jfif" alt="" />
+          <div class="flex flex-col gap-2 lg:gap-10">
+            <h3
+              class="text-2xl font-bold hover:text-yellow-400 transition duration-300"
+            >
+              Juara 1 LCC Biology Scientific Fair (BSF)
+            </h3>
+            <p class="text-gray-500">
+              <i class="fa-solid fa-calendar-days"></i> 21 Mar, 2024
+              <i class="fa-regular fa-map"></i>
+            </p>
+            <hr class="lg:my-5 my-2" />
+            <p class="text-gray-600">Skala Nasional</p>
+            <p class="text-gray-700">
+              <i class="fa-solid fa-people-group"></i>: NIDA NURHAFIZHAH XI MIPA
+              3 DEVIN WALUYO/XI MIPA 7 HANIN HUNAFA/XI MIPA 3
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-14 w-full flex justify-center items-center">
+        <a
+          href="#total"
+          class="text-sm font-bold border-2 border-slate-800 tracking-widest hover:bg-slate-800 hover:text-white text-black transition duration-300 py-3 px-10"
+          >TAMPILKAN SEMUA PRESTASI</a
+        >
+      </div>
+    </section>
+    <!-- End Section Prestasi Terbaru -->
+    <!-- Section Total Prestasi -->
+    <section
+      id="total"
+      class="bg-sky-950 grid grid-cols-2 lg:flex lg:flex-row justify-center items-center py-10 px-2 gap-10"
+    >
+      <div
+        class="border border-white rounded-sm lg:w-60 lg:h-60 flex flex-col justify-center items-center"
+      >
+        <i class="fa-solid fa-medal text-yellow-400 text-2xl lg:text-5xl"></i>
+        <h2
+          data-count="212"
+          data-speed="60"
+          class="counter font-bold text-white text-4xl lg:text-6xl"
+        >
+          0
+        </h2>
+        <p class="text-center text-white text-sm lg:text-xl font-bold">
+          PRESTASI <br />
+          INTERNASIONAL
+        </p>
+      </div>
+      <div
+        class="border border-white rounded-sm lg:w-60 lg:h-60 flex flex-col justify-center items-center"
+      >
+        <i class="fa-solid fa-medal text-yellow-400 text-2xl lg:text-5xl"></i>
+        <h2
+          data-count="128"
+          data-speed="60"
+          class="counter font-bold text-white text-4xl lg:text-6xl"
+        >
+          0
+        </h2>
+        <p class="text-center text-white text-sm lg:text-xl font-bold">
+          PRESTASI <br />
+          TINGKAT NASIONAL
+        </p>
+      </div>
+      <div
+        class="border border-white rounded-sm lg:w-60 lg:h-60 flex flex-col justify-center items-center"
+      >
+        <i class="fa-solid fa-medal text-yellow-400 text-2xl lg:text-5xl"></i>
+        <h2
+          data-count="8970"
+          data-speed="1000"
+          class="counter font-bold text-white text-4xl lg:text-6xl"
+        >
+          0
+        </h2>
+        <p class="text-center text-white text-sm lg:text-xl font-bold">
+          PRESTASI <br />
+          TINGKAT PROVINSI
+        </p>
+      </div>
+      <div
+        class="border border-white rounded-sm lg:w-60 lg:h-60 flex flex-col justify-center items-center"
+      >
+        <i class="fa-solid fa-medal text-yellow-400 text-2xl lg:text-5xl"></i>
+        <h2
+          data-count="640"
+          data-speed="120"
+          class="counter font-bold text-white text-4xl lg:text-6xl"
+        >
+          0
+        </h2>
+        <p class="text-center text-white text-sm lg:text-xl font-bold">
+          PRESTASI <br />
+          TINGKAT KABUPATEN
+        </p>
+      </div>
+    </section>
+    <!-- End Section Total Prestasi -->
+    <!-- Section Tenaga Pendidik -->
+    <section
+      id="tenagaPendidik"
+      class="bg-slate-100 py-[4rem] w-full lg:px-[5rem] relative"
+    >
+      <h1
+        class="header-lines relative text-slate-800 text-center text-3xl font-bold"
+      >
+        Tenaga Pendidik
+      </h1>
+      <i
+        class="fa-solid carousel-btn left fa-angle-left absolute left-10 bottom-0 top-0 m-auto text-black hover:text-yellow-400 text-2xl bg-slate-300 z-50 rounded-full shadow-md w-10 h-10 flex justify-center items-center cursor-pointer transition duration-300"
+      ></i>
+      <div class="mt-10 px-10 overflow-hidden relative" id="carouselWrapper">
+        <div
+          class="flex flex-row carousel-img-wrapper gap-x-10 transition duration-300"
+        >
+          <div class="relative bg-blue-500">
+            <img src="img/dummy.jpg" alt="" class="carousel-img" />
+            <div
+              class="absolute bottom-5 left-0 right-0 m-auto bg-white flex justify-center items-center flex-col"
+            >
+              <p class="xl:text-xl text-slate-800">Abdul Ghani Madaris</p>
+              <p class="font-bold text-sm text-yellow-400">RPL</p>
+            </div>
+          </div>
+          <div class="relative bg-blue-500">
+            <img src="img/dummy.jpg" alt="" class="carousel-img" />
+            <div
+              class="absolute bottom-5 left-0 right-0 m-auto bg-white flex justify-center items-center flex-col"
+            >
+              <p class="xl:text-xl text-slate-800">Abdul Ghani Madaris</p>
+              <p class="font-bold text-sm text-yellow-400">RPL</p>
+            </div>
+          </div>
+          <div class="relative bg-blue-500">
+            <img src="img/dummy.jpg" alt="" class="carousel-img" />
+            <div
+              class="absolute bottom-5 left-0 right-0 m-auto bg-white flex justify-center items-center flex-col"
+            >
+              <p class="xl:text-xl text-slate-800">Abdul Ghani Madaris</p>
+              <p class="font-bold text-sm text-yellow-400">RPL</p>
+            </div>
+          </div>
+          <div class="relative bg-blue-500">
+            <img src="img/dummy.jpg" alt="" class="carousel-img" />
+            <div
+              class="absolute bottom-5 left-0 right-0 m-auto bg-white flex justify-center items-center flex-col"
+            >
+              <p class="xl:text-xl text-slate-800">Abdul Ghani Madaris</p>
+              <p class="font-bold text-sm text-yellow-400">RPL</p>
+            </div>
+          </div>
+          <div class="relative bg-blue-500">
+            <img src="img/dummy.jpg" alt="" class="carousel-img" />
+            <div
+              class="absolute bottom-5 left-0 right-0 m-auto bg-white flex justify-center items-center flex-col"
+            >
+              <p class="xl:text-xl text-slate-800">Abdul Ghani Madaris</p>
+              <p class="font-bold text-sm text-yellow-400">RPL</p>
+            </div>
+          </div>
+          <div class="relative bg-blue-500">
+            <img src="img/dummy.jpg" alt="" class="carousel-img" />
+            <div
+              class="absolute bottom-5 left-0 right-0 m-auto bg-white flex justify-center items-center flex-col"
+            >
+              <p class="xl:text-xl text-slate-800">Abdul Ghani Madaris</p>
+              <p class="font-bold text-sm text-yellow-400">RPL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <i
+        class="fa-solid carousel-btn right fa-angle-right absolute right-10 bottom-0 top-0 m-auto text-black hover:text-yellow-400 text-2xl bg-slate-300 z-50 rounded-full shadow-md w-10 h-10 flex justify-center items-center cursor-pointer transition duration-300"
+      ></i>
+      <div class="mt-14 w-full flex justify-center items-center">
+        <a
+          href="#"
+          class="text-sm font-bold border-2 border-slate-800 tracking-widest hover:bg-slate-800 hover:text-white text-black transition duration-300 py-3 px-10"
+          >TAMPILKAN SEMUA GURU</a
+        >
+      </div>
+    </section>
+    <!-- End Section Tenaga Pendidik -->
+    <!-- Section Profil Almuni -->
+    <section
+      id="profilAlumni"
+      class="bg-sky-950 py-[4rem] w-full lg:px-[5rem] relative"
+    >
+      <h1
+        class="header-lines relative text-white text-center text-3xl font-bold"
+      >
+        Profil Alumni
+      </h1>
+      <i
+        class="fa-solid carousel-btn left fa-angle-left absolute left-10 bottom-0 top-0 m-auto text-black hover:text-yellow-400 text-2xl bg-slate-300 z-50 rounded-full shadow-md w-10 h-10 flex justify-center items-center cursor-pointer transition duration-300"
+      ></i>
+      <div class="mt-10 overflow-hidden relative" id="carouselWrapper2">
+        <div
+          class="flex flex-row carousel-img-wrapper h-[480px] gap-x-10 transition duration-300 p-5"
+        >
+          <div
+            class="border border-gray-500 lg:gap-x-10 w-[345px] h-[435px] lg:h-[280px] lg:w-[455px] p-[30px] flex justify-center items-center flex-col lg:flex-row"
+          >
+            <img
+              src="img/photorandom150.jfif"
+              alt=""
+              class="object-cover rounded-full lg:rounded-sm"
+            />
+            <div
+              class="text-wrap flex relative justify-center gap-x-10 lg:gap-x-0 lg:gap-y-2 lg:items-left flex-col"
+            >
+              <h4
+                class="text-center lg:text-left text-yellow-400 font-bold text-md"
+              >
+                ABDUL GHANI MADARIS
+              </h4>
+              <p class="text-center lg:text-left text-white text-sm comma">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                minima eaque inventore nisi amet totam veritatis eius quas
+                ducimus iste. Lorem, ipsum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Recusandae, esse?
+              </p>
+            </div>
+          </div>
+          <div
+            class="border border-gray-500 lg:gap-x-10 w-[345px] h-[435px] lg:h-[280px] lg:w-[455px] p-[30px] flex justify-center items-center flex-col lg:flex-row"
+          >
+            <img
+              src="img/photorandom150.jfif"
+              alt=""
+              class="object-cover rounded-full lg:rounded-sm"
+            />
+            <div
+              class="text-wrap flex relative justify-center gap-x-10 lg:gap-x-0 lg:gap-y-2 lg:items-left flex-col"
+            >
+              <h4
+                class="text-center lg:text-left text-yellow-400 font-bold text-md"
+              >
+                ABDUL GHANI MADARIS
+              </h4>
+              <p class="text-center lg:text-left text-white text-sm comma">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                minima eaque inventore nisi amet totam veritatis eius quas
+                ducimus iste. Lorem, ipsum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Recusandae, esse?
+              </p>
+            </div>
+          </div>
+          <div
+            class="border border-gray-500 lg:gap-x-10 w-[345px] h-[435px] lg:h-[280px] lg:w-[455px] p-[30px] flex justify-center items-center flex-col lg:flex-row"
+          >
+            <img
+              src="img/photorandom150.jfif"
+              alt=""
+              class="object-cover rounded-full lg:rounded-sm"
+            />
+            <div
+              class="text-wrap flex relative justify-center gap-x-10 lg:gap-x-0 lg:gap-y-2 lg:items-left flex-col"
+            >
+              <h4
+                class="text-center lg:text-left text-yellow-400 font-bold text-md"
+              >
+                ABDUL GHANI MADARIS
+              </h4>
+              <p class="text-center lg:text-left text-white text-sm comma">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                minima eaque inventore nisi amet totam veritatis eius quas
+                ducimus iste. Lorem, ipsum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Recusandae, esse?
+              </p>
+            </div>
+          </div>
+          <div
+            class="border border-gray-500 lg:gap-x-10 w-[345px] h-[435px] lg:h-[280px] lg:w-[455px] p-[30px] flex justify-center items-center flex-col lg:flex-row"
+          >
+            <img
+              src="img/photorandom150.jfif"
+              alt=""
+              class="object-cover rounded-full lg:rounded-sm"
+            />
+            <div
+              class="text-wrap flex relative justify-center gap-x-10 lg:gap-x-0 lg:gap-y-2 lg:items-left flex-col"
+            >
+              <h4
+                class="text-center lg:text-left text-yellow-400 font-bold text-md"
+              >
+                ABDUL GHANI MADARIS
+              </h4>
+              <p class="text-center lg:text-left text-white text-sm comma">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                minima eaque inventore nisi amet totam veritatis eius quas
+                ducimus iste. Lorem, ipsum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Recusandae, esse?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <i
+        class="fa-solid carousel-btn right fa-angle-right absolute right-10 bottom-0 top-0 m-auto text-black hover:text-yellow-400 text-2xl bg-slate-300 z-50 rounded-full shadow-md w-10 h-10 flex justify-center items-center cursor-pointer transition duration-300"
+      ></i>
+    </section>
+    <!-- End Section Profil Alumni -->
+    <!-- Section Kontak Kami -->
+    <section id="Contact" class="bg-slate-100 py-[4rem]">
+      <h1
+        class="header-lines relative text-slate-800 text-center text-3xl font-bold"
+      >
+        Hubungi Kami
+      </h1>
+      <div
+        class="flex flex-col justify-center items-center lg:justify-start lg:items-start lg:flex-row mt-10 gap-x-10 lg:px-[4rem]"
+      >
+        <div class="">
+          <h4 class="text-slate-800 text-2xl font-bold">Denah Lokasi</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7905.8126837462805!2d110.352539!3d-7.79974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57f4fa62fdab%3A0x4d7d92f9032750f0!2sSMA%20Negeri%201%20Teladan%20Yogyakarta!5e0!3m2!1sen!2sid!4v1717513825473!5m2!1sen!2sid"
+            class="w-[300px] h-[300px] lg:w-[600px] lg:h-[600px]"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="">
+          <h4 class="text-slate-800 text-2xl font-bold">Kontak</h4>
+          <div class="flex flex-row mb-5 gap-x-1">
+            <i
+              class="fa-solid fa-envelope border border-black text-xl w-10 flex justify-center items-center py-5"
+            ></i>
+            <div class="flex flex-col gap-y-1">
+              <p>Email</p>
+              <p>smasiji_teladan@yahoo.com</p>
+            </div>
+          </div>
+          <div class="flex flex-row mb-5 gap-x-1">
+            <i
+              class="fa-solid fa-map border border-black text-xl w-10 flex justify-center items-center py-5"
+            ></i>
+            <div class="flex flex-col gap-y-1">
+              <p>Address</p>
+              <p>Pobundayan</p>
+            </div>
+          </div>
+          <div class="flex flex-row mb-5 gap-x-1">
+            <i
+              class="fa-solid fa-phone border border-black text-xl w-10 flex justify-center items-center py-5"
+            ></i>
+            <div class="flex flex-col gap-y-1">
+              <p>Phone</p>
+              <p>081526092736</p>
+            </div>
+          </div>
+          <div class="flex flex-row mb-5 gap-x-1">
+            <i
+              class="fa-solid fa-fax border border-black text-xl w-10 flex justify-center items-center py-5"
+            ></i>
+            <div class="flex flex-col gap-y-1">
+              <p>Fax</p>
+              <p>0123455</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:px-[4rem] mt-3 px-[3rem]">
+        <h4 class="text-slate-800 text-3xl font-bold">Kotak Saran</h4>
+        <form action="" class="">
+          <input
+            type="text"
+            class="px-2 outline-none border-black mb-3 border py-2 w-full"
+            placeholder="Masukkan Nama"
+          />
+          <input
+            type="email"
+            class="px-2 outline-none border-black mb-3 border py-2 w-full"
+            placeholder="Masukkan Email"
+          />
+          <input
+            type="number"
+            class="px-2 outline-none border-black mb-3 border py-2 w-full"
+            placeholder="Masukkan Nomor Telepon"
+          />
+          <textarea
+            name=""
+            class="w-full h-[8rem] outline-none border border-black mb-3 py-2 px-2 resize-none"
+            placeholder="Masukkan Pesan"
+            id=""
+          ></textarea>
+          <button
+            type="submit"
+            class="border-2 border-slate-800 text-slate-800 px-2 py-3 hover:text-white hover:bg-slate-800 transition duration-300 font-bold"
+          >
+            KIRIM PESAN <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- End Section Kontak Kami -->
+    <!-- Start Footer -->
+    <footer class="bg-slate-800">
+      <div
+        class="flex md:flex-row flex-col justify-center gap-x-10 w-full pt-[4rem]"
+      >
+        <div class="flex flex-col w-[20rem] gap-y-5 mr-5 ml-3">
+          <img src="img/logo_putih_besar.png" alt="" />
+          <p class="text-white text-justify">
+            SMA Negeri 1 Yogyakarta telah menjadi bagian tak terpisahkan dari
+            perjalanan Yogyakarta sebagai kota pendidikan sejak tahun 1957.
+            Dijiwai motto Teladan Jayamahe, Sekolah ini mengantar keluarga
+            besarnya untuk berjaya di manapun dan kapanpun.
+          </p>
+          <hr class="text-black" />
+          <div class="">
+            <ul class="flex flex-row gap-x-5">
+              <li
+                class="w-10 h-10 rounded-full text-white flex justify-center items-center border border-white text-xl hover:bg-white hover:text-slate-800 transition duration-300"
+              >
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li
+                class="w-10 h-10 rounded-full text-white flex justify-center items-center border border-white text-xl hover:bg-white hover:text-slate-800 transition duration-300"
+              >
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li
+                class="w-10 h-10 rounded-full text-white flex justify-center items-center border border-white text-xl hover:bg-white hover:text-slate-800 transition duration-300"
+              >
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-[20rem]">
+          <h3 class="text-xl text-white font-bold">INFO SEKOLAH</h3>
+          <div class="flex flex-row gap-x-5">
+            <img
+              src="img/photorandom80.jfif"
+              class="rounded-lg object-cover w-[80px] h-[80px]"
+              alt=""
+            />
+            <div class="">
+              <p class="text-yellow-400 text-md">
+                LOWONGAN KERJA GTT GEOGRAFI...
+              </p>
+              <p class="text-white text-sm">04 Jun, 2024</p>
+              <p class="text-white text-sm">
+                Lowongan Pekerjaan GTT Geografi dan Matematika Silahkan
+                Kirimkan...
+              </p>
+            </div>
+          </div>
+          <hr class="my-5" />
+          <div class="flex flex-row gap-x-5">
+            <img
+              src="img/photorandom80.jfif"
+              class="rounded-lg object-cover w-[80px] h-[80px]"
+              alt=""
+            />
+            <div class="">
+              <p class="text-yellow-400 text-md">
+                LOWONGAN KERJA GTT GEOGRAFI...
+              </p>
+              <p class="text-white text-sm">04 Jun, 2024</p>
+              <p class="text-white text-sm">
+                Lowongan Pekerjaan GTT Geografi dan Matematika Silahkan
+                Kirimkan...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-[20rem]">
+          <h3 class="text-xl text-white font-bold">AGENDA SEKOLAH</h3>
+          <div class="flex flex-row gap-x-5">
+            <img
+              src="img/photorandom80.jfif"
+              class="rounded-lg object-cover w-[80px] h-[80px]"
+              alt=""
+            />
+            <div class="">
+              <p class="text-yellow-400 text-md">
+                LOWONGAN KERJA GTT GEOGRAFI...
+              </p>
+              <p class="text-white text-sm">04 Jun, 2024</p>
+              <p class="text-white text-sm">
+                Lowongan Pekerjaan GTT Geografi dan Matematika Silahkan
+                Kirimkan...
+              </p>
+            </div>
+          </div>
+          <hr class="my-5" />
+          <div class="flex flex-row gap-x-5">
+            <img
+              src="img/photorandom80.jfif"
+              class="rounded-lg object-cover w-[80px] h-[80px]"
+              alt=""
+            />
+            <div class="">
+              <p class="text-yellow-400 text-md">
+                LOWONGAN KERJA GTT GEOGRAFI...
+              </p>
+              <p class="text-white text-sm">04 Jun, 2024</p>
+              <p class="text-white text-sm">
+                Lowongan Pekerjaan GTT Geografi dan Matematika Silahkan
+                Kirimkan...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/hamburger.js"></script>
+    <script src="js/handleNavScroll.js"></script>
+    <script src="js/counterAnimation.js"></script>
+    <script src="js/handleCarousel.js"></script>
+  </body>
+</html>
